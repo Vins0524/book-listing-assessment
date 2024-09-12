@@ -1,0 +1,116 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.container {
+  width: 90%;
+  max-width: 800px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 30px;
+}
+
+form input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form label {
+  font-weight: bold;
+  color: #555;
+}
+
+form button {
+  padding: 12px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
+
+/* Book List Styles */
+.book-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.book-list li {
+  background-color: #f9f9f9;
+  padding: 15px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.book-list li p {
+  margin: 0;
+}
+
+.book-list li strong {
+  color: #333;
+}
+
+.book-list button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.book-list .edit-button {
+  background-color: #28a745;
+  color: white;
+  margin-right: 10px;
+}
+
+.book-list .edit-button:hover {
+  background-color: #218838;
+}
+
+.book-list .delete-button {
+  background-color: #dc3545;
+  color: white;
+}
+
+.book-list .delete-button:hover {
+  background-color: #c82333;
+}
+
+.buttons {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+}
